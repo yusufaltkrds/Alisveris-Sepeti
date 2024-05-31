@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="200.0" prefWidth="480.0" style="-fx-background-radius: 15; -fx-background-color: #e0e0e0;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.alisverissepeti.BasketCardController">
+   <children>
+      <ImageView fx:id="productImageView" fitHeight="160.0" fitWidth="118.0" layoutX="24.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resimler/pantolon.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="trademark" layoutX="166.0" layoutY="31.0" prefHeight="32.0" prefWidth="132.0" text="T-Shirt">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="explanation" alignment="TOP_LEFT" layoutX="170.0" layoutY="63.0" prefHeight="51.0" prefWidth="278.0" text="\%100 pamuk ekstra yünlü doğal kumaş" wrapText="true">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="stars" layoutX="170.0" layoutY="103.0" prefHeight="30.0" prefWidth="150.0" style="-fx-background-radius: 15; -fx-background-color: #D3D3D3;" text="   4,3">
+         <font>
+            <Font name="Montserrat Medium" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="34.0" fitWidth="18.0" layoutX="214.0" layoutY="109.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ikonlar/star.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="34.0" fitWidth="18.0" layoutX="234.0" layoutY="109.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ikonlar/star.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="34.0" fitWidth="18.0" layoutX="254.0" layoutY="109.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ikonlar/star.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="34.0" fitWidth="18.0" layoutX="274.0" layoutY="109.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ikonlar/star.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="34.0" fitWidth="20.0" layoutX="294.0" layoutY="108.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ikonlar/half_star.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="price" layoutX="337.0" layoutY="103.0" text="239,99  TL" textFill="#ffab3b">
+         <font>
+            <Font name="Ebrima Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="258.0" layoutY="145.0" opacity="0.61" prefHeight="18.0" prefWidth="110.0" text="Teslim tarihi: 5 gün" />
+   </children>
+</AnchorPane>

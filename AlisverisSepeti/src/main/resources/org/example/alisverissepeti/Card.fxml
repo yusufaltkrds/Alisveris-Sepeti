@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pann" prefHeight="275.0" prefWidth="150.0" style="-fx-background-radius: 15; -fx-background-color: #e0e0e0;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.alisverissepeti.CardController">
+   <children>
+      <ImageView fx:id="productImageView" fitHeight="138.0" fitWidth="108.0" layoutX="26.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resimler/pantolon.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="trademark" layoutX="18.0" layoutY="152.0" prefHeight="20.0" prefWidth="88.0" text="Pantolon">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="explanation" layoutX="19.0" layoutY="170.0" opacity="0.84" prefHeight="36.0" prefWidth="122.0" text="\%100 pamuk ekstra esasdşlmaslkdasd" wrapText="true">
+         <font>
+            <Font name="Ebrima" size="12.0" />
+         </font></Label>
+      <Label fx:id="stars" layoutX="14.0" layoutY="208.0" prefHeight="8.0" prefWidth="105.0" style="-fx-background-radius: 15; -fx-background-color: #D3D3D3;" text="   4,3">
+         <font>
+            <Font name="Montserrat Medium" size="12.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="15.0" fitWidth="13.0" layoutX="45.0" layoutY="209.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ikonlar/star.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="34.0" fitWidth="13.0" layoutX="59.0" layoutY="209.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ikonlar/star.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="34.0" fitWidth="13.0" layoutX="74.0" layoutY="209.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ikonlar/star.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="34.0" fitWidth="13.0" layoutX="89.0" layoutY="209.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ikonlar/star.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="34.0" fitWidth="13.0" layoutX="104.0" layoutY="209.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ikonlar/half_star.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="price" alignment="CENTER" layoutX="13.0" layoutY="234.0" prefHeight="27.0" prefWidth="88.0" style="-fx-background-color: #391461; -fx-background-radius: 20;" text="239,99 TL" textFill="#ffab3b">
+         <font>
+            <Font name="Ebrima Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="104.0" layoutY="228.0" prefHeight="38.0" prefWidth="38.0" style="-fx-background-color: #391461; -fx-background-radius: 20;" textFill="#ffab3b">
+         <font>
+            <Font name="Ebrima Bold" size="13.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="27.0" fitWidth="27.0" layoutX="109.0" layoutY="234.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ikonlar/cart.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="128.0" layoutY="238.0" prefHeight="13.0" prefWidth="13.0" style="-fx-border-color: #ffab3b; -fx-border-radius: 20; -fx-border-width: 0;" text="+" textFill="#ffab3b">
+         <font>
+            <Font name="Berlin Sans FB" size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="add" layoutX="104.0" layoutY="228.0" mnemonicParsing="false" onAction="#addToBasket" prefHeight="38.0" prefWidth="38.0" style="-fx-background-radius: 30; -fx-background-color: transparent;" />
+   </children>
+</AnchorPane>
